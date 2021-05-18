@@ -1,0 +1,7 @@
+test/
+node_modules/
+docs/
+.vscode
+.gitignore
+.eslintrc.json
+package-lock.json

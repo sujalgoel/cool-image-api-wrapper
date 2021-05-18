@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <title>Home | Cool Image API</title>
+
+
+    <meta name="theme-color" content="#7289DA">
+    <meta property="og:image" content="https://cdn.discordapp.com/avatars/581752425858203659/a_b26f9781f3b0300177ab1f3af6190a52.gif?size=4096">
+    <meta property="og:url" content="https://cool-img-api.js.org">
+    <meta property="og:site_name" content="Home | Cool Image API">
+    <meta property="og:title" content="Home | Cool Image API">
+    <meta property="og:description" content="A simple & easy to use wrapper for Cool Image API">
+
+    <meta property="twitter:url" content="https://cool-img-api.js.org" />
+    <meta property="twitter:title" content="Home | Cool Image API" />
+    <meta property="twitter:description" content="A simple & easy to use wrapper for Cool Image API" />
+    <meta property="twitter:image" content="https://cdn.discordapp.com/avatars/581752425858203659/a_b26f9781f3b0300177ab1f3af6190a52.gif?size=4096" />
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <script src="scripts/nav.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.3/fuse.min.js"></script>
+    <link class="favicon" rel="shortcut icon" type="icon/png" href="https://cdn.discordapp.com/emojis/785402701735264266.png?v=1">
+    <link type="text/css" rel="stylesheet" href="styles/skyceil.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="utilities">
+            <div id="search">
+                <input type="text" id="search-box" placeholder="Search">
+                <br>
+                <div id="search-results" style="display: none;"></div>
+            </div>
+            <button class="theme" data-theme="light"><i class="fas fa-moon"></i>
+			</button>
+        </div>
+        <hr>
+        <h4><a href="index.html">Home</a></h4>
+        <h5 class="no-bottom must-underline">Classes</h5>
+        <ul>
+            <li> <span class="small-icon C">C</span><b><a href="API.html">API</a></b>
+                <ul class="has-class-methods">
+                    <li><span class="small-icon F">F</span><a href="API.html#achievement">achievement</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#alwayshasbeen">alwayshasbeen</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#amiajoke">amiajoke</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#bad">bad</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#beautiful">beautiful</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#bed">bed</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#birb">birb</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#blur">blur</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#calling">calling</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#captcha">captcha</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#cats">cats</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#challenge">challenge</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#changemymind">changemymind</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#clyde">clyde</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#communist">communist</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#didyoumean">didyoumean</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#discord_message">discord_message</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#dissapointed">dissapointed</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#dogs">dogs</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#drake">drake</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#facepalm">facepalm</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#facts">facts</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#gay">gay</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#gun">gun</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#hitler">hitler</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#invert">invert</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#jail">jail</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#jokeoverhead">jokeoverhead</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#meme">meme</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#play_store">play_store</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#presentation">presentation</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#random_captcha">random_captcha</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#rip">rip</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#salty">salty</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#scroll">scroll</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#shame">shame</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#ship">ship</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#shit">shit</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#simp">simp</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#spank">spank</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#trash">trash</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#triggered">triggered</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#wanted">wanted</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#wasted">wasted</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#weather_card">weather_card</a>
+                    </li>
+                    <li><span class="small-icon F">F</span><a href="API.html#what">what</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div id="main">
+        <div class="burger">
+            <div class="burger-line-1"></div>
+            <div class="burger-line-2"></div>
+            <div class="burger-line-3"></div>
+        </div>
+        <h1 class="page-title">Home</h1>
+        <h3> </h3>
+        <hr>
+        <section>
+            <article>
+                <h1 align="center">Cool Image API Wrapper</h1>
+                <p align="center">
+                    <a href="https://npmjs.com/cool-image-api-wrapper" target="_blank">
+                        <img src="https://nodei.co/npm/cool-image-api-wrapper.png" alt="cool-image-api-wrapper">
+                    </a>
+                </p>
+                <p align="center">
+                    <a style="text-decoration: none;" href="https://www.npmjs.com/package/cool-image-api-wrapper" target="_blank">
+                        <img alt="Version" src="https://img.shields.io/npm/v/cool-image-api-wrapper.svg?style=for-the-badge">
+                    </a>
+                    <a style="text-decoration: none;" href="https://cool-image-api.js.org" target="_blank">
+                        <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-amiajokegreen.svg?style=for-the-badge" />
+                    </a>
+                    <a style="text-decoration: none;" href="https://github.com/sujalgoel/cool-image-api-wrapper/graphs/commit-activity" target="_blank">
+                        <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge" />
+                    </a>
+                    <a style="text-decoration: none;" href="https://github.com/sujalgoel/cool-image-api-wrapper/blob/master/LICENSE" target="_blank">
+                        <img alt="License: GPL-3.0" src="https://img.shields.io/github/license/sujalgoel/cool-image-api-wrapper?style=for-the-badge" />
+                    </a>
+                </p>
+                <h2>What is cool-image-api-wrapper?</h2>
+                <ul>
+                    <li><strong>A quick and easy wraper to interact with the cool image api</strong>
+                    </li>
+                </ul>
+                <h2>Features</h2>
+                <ul>
+                    <li><strong>🧑 Beginner friendly</strong>
+                    </li>
+                    <li><strong>🎉 Easy to use</strong>
+                    </li>
+                    <li><strong>✨ Simple</strong>
+                    </li>
+                    <li><strong>⚙️ Asynchronous</strong>
+                    </li>
+                    <li><strong>and much more!</strong>
+                    </li>
+                </ul>
+                <h2>Install 📥</h2>
+                <pre class="prettyprint linenums example source lang-sh"><code>npm install cool-image-api-wrapper
+</code></pre>
+                <h2>Usage 📚</h2>
+                <pre class="prettyprint linenums example source lang-js"><code>const { API } = require(&quot;cool-image-api-wrapper&quot;);
+const api = new API();
+await api
+  .discord_message(
+    &quot;My, name is Sujal Goel&quot;,
+    &quot;#7289DA&quot;,
+    &quot;Sujal Goel&quot;,
+    &quot;https://cdn.discordapp.com/avatars/581752425858203659/a_b26f9781f3b0300177ab1f3af6190a52.png&quot;
+  )
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((e) => {
+    console.log(e);
+  });
+</code></pre>
+                <h2>Example ✏️</h2>
+                <pre class="prettyprint linenums example source lang-js"><code>const Discord = require(&quot;discord.js&quot;);
+const client = new Discord.Client();
+const { API } = require(&quot;cool-image-api-wrapper&quot;);
+const api = new API();
+
+client.on(&quot;ready&quot;, () => {
+  console.log(`Logged in as ${client.user.tag}!`);
+});
+
+client.on(&quot;message&quot;, async (message) => {
+  if (message.content === &quot;test&quot;) {
+    await api
+      .discord_message(
+        &quot;My, name is Sujal Goel&quot;,
+        &quot;#7289DA&quot;,
+        &quot;Sujal Goel&quot;,
+        &quot;https://cdn.discordapp.com/avatars/581752425858203659/a_b26f9781f3b0300177ab1f3af6190a52.png&quot;
+      )
+      .then((data) => {
+        console.log(data);
+        const attachment = new Discord.MessageAttachment(data);
+        message.channel.send(attachment);
+      })
+      .catch((e) => {
+        console.log(e);
+      });
+  }
+});
+
+client.login(&quot;DISCORD_BOT_TOKEN&quot;);
+</code></pre>
+                <h2>Contributing 🤝</h2>
+                <ul>
+                    <li><strong>Contributions, issues and feature requests are welcome!</strong>
+                    </li>
+                    <li><strong>Feel free to check <a
+                                href="https://github.com/sujalgoel/cool-image-api-wrapper/issues">issues
+                                page</a>.</strong>
+                    </li>
+                </ul>
+                <h2>Author 💖</h2>
+                <ul>
+                    <li><strong>Github:</strong> <a href="https://github.com/sujalgoel" target="_blank">@Sujal Goel</a>
+                    </li>
+                    <li><strong>Website:</strong> <a href="https://sujalgoel.ml" target="_blank">@Sujal Goel</a>
+                    </li>
+                </ul>
+                <h2>Support Server</h2>
+                <p>
+                    <a href="https://discord.gg/pXeUpehMfb" target="_blank">
+                        <img src="https://invidget.switchblade.xyz/pXeUpehMfb" alt="">
+                    </a>
+                </p>
+            </article>
+        </section>
+    </div>
+    <br class="clear">
+    <footer>Documentation generated by <a href="https://github.com/jsdoc/jsdoc" target="_blank">JSDoc 3.6.7</a> using <a href="https://github.com/devsnowflake/jsdoc-skyceil" target="_blank">Skyceil Theme</a>
+    </footer>
+    <script>
+        prettyPrint();
+    </script>
+    <script src="scripts/linenumber.js"></script>
+</body>
+
+</html>

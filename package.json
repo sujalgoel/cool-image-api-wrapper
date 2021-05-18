@@ -1,0 +1,76 @@
+{
+    "name": "cool-image-api-wrapper",
+    "version": "1.0.0",
+    "description": "A quick and easy wraper to interact with the cool image api!",
+    "main": "index.js",
+    "typings": "index.d.ts",
+    "scripts": {
+        "test": "node test/test.js"
+    },
+    "homepage": "https://cool-img-api.js.org",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sujalgoel/cool-image-api-wrapper.git"
+    },
+    "keywords": [
+        "API",
+        "cool-image-api",
+        "achievement",
+        "alwayshasbeen",
+        "amiajoke",
+        "bad",
+        "beautiful",
+        "bed",
+        "birb",
+        "blur",
+        "calling",
+        "captcha",
+        "cats",
+        "challenge",
+        "changemymind",
+        "clyde",
+        "communist",
+        "didyoumean",
+        "discord-message",
+        "dissapointed",
+        "dogs",
+        "drake",
+        "facepalm",
+        "facts",
+        "gay",
+        "gun",
+        "hitler",
+        "invert",
+        "jail",
+        "jokeoverhead",
+        "meme",
+        "play-store",
+        "presentation",
+        "random-captcha",
+        "rip",
+        "salty",
+        "scroll",
+        "shame",
+        "ship",
+        "shit",
+        "simp",
+        "spank",
+        "trash",
+        "triggered",
+        "wanted",
+        "wasted",
+        "weather-card",
+        "what"
+    ],
+    "author": "Sujal Goel",
+    "license": "GPL-3.0",
+    "devDependencies": {
+        "node-fetch": "^2.6.1"
+    },
+    "dependencies": {
+        "discord.js": "^12.5.3"
+    },
+    "bugs": {
+        "url": "https://github.com/sujalgoel/cool-image-api-wrapper/issues"
+    }
+}

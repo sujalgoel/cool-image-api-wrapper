@@ -1,0 +1,82 @@
+[{
+    "name": "Home",
+    "url": "<a href=\"index.html\">Home</a>"
+}, {
+    "name": "API",
+    "url": "<a href=\"API.html\">API</a>"
+}, {
+    "name": "API#balloon",
+    "url": "<a href=\"API.html#balloon\">balloon</a>"
+}, {
+    "name": "API#blur",
+    "url": "<a href=\"API.html#blur\">blur</a>"
+}, {
+    "name": "API#bright",
+    "url": "<a href=\"API.html#bright\">bright</a>"
+}, {
+    "name": "API#captcha",
+    "url": "<a href=\"API.html#captcha\">captcha</a>"
+}, {
+    "name": "API#catfact",
+    "url": "<a href=\"API.html#catfact\">catfact</a>"
+}, {
+    "name": "API#cmm",
+    "url": "<a href=\"API.html#cmm\">cmm</a>"
+}, {
+    "name": "API#comment",
+    "url": "<a href=\"API.html#comment\">comment</a>"
+}, {
+    "name": "API#deepfry",
+    "url": "<a href=\"API.html#deepfry\">deepfry</a>"
+}, {
+    "name": "API#dogfact",
+    "url": "<a href=\"API.html#dogfact\">dogfact</a>"
+}, {
+    "name": "API#eightball",
+    "url": "<a href=\"API.html#eightball\">eightball</a>"
+}, {
+    "name": "API#fade",
+    "url": "<a href=\"API.html#fade\">fade</a>"
+}, {
+    "name": "API#fortune",
+    "url": "<a href=\"API.html#fortune\">fortune</a>"
+}, {
+    "name": "API#gah",
+    "url": "<a href=\"API.html#gah\">gah</a>"
+}, {
+    "name": "API#gray",
+    "url": "<a href=\"API.html#gray\">gray</a>"
+}, {
+    "name": "API#hug",
+    "url": "<a href=\"API.html#hug\">hug</a>"
+}, {
+    "name": "API#invert",
+    "url": "<a href=\"API.html#invert\">invert</a>"
+}, {
+    "name": "API#lyrics",
+    "url": "<a href=\"API.html#lyrics\">lyrics</a>"
+}, {
+    "name": "API#pixel",
+    "url": "<a href=\"API.html#pixel\">pixel</a>"
+}, {
+    "name": "API#roast",
+    "url": "<a href=\"API.html#roast\">roast</a>"
+}, {
+    "name": "API#sepia",
+    "url": "<a href=\"API.html#sepia\">sepia</a>"
+}, {
+    "name": "API#ship",
+    "url": "<a href=\"API.html#ship\">ship</a>"
+}, {
+    "name": "API#trigger",
+    "url": "<a href=\"API.html#trigger\">trigger</a>"
+}, {
+    "name": "API#tweet",
+    "url": "<a href=\"API.html#tweet\">tweet</a>"
+}, {
+    "name": "API#wtp",
+    "url": "<a href=\"API.html#wtp\">wtp</a>"
+}, {
+    "name": "API#wyr",
+    "url": "<a href=\"API.html#wyr\">wyr</a>"
+}]
