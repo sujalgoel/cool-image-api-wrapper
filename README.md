@@ -1,19 +1,16 @@
 <h1 align="center">Cool Image API Wrapper</h1>
 <p>
   <a href="https://discord.gg/pXeUpehMfb" target="_blank">
-    <img alt="Discord" src="https://img.shields.io/badge/Support-Click%20here-7289d9?style=for-the-badge&logo=discord">
+    <img alt="Discord" src="https://img.shields.io/badge/Support-Click%20here-7289d9?style=flat-square&logo=discord">
   </a>
   <a href="https://www.npmjs.com/package/cool-image-api-wrapper" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/cool-image-api-wrapper.svg?style=for-the-badge">
+    <img alt="Version" src="https://img.shields.io/npm/v/cool-image-api-wrapper.svg?style=flat-square">
   </a>
   <a href="https://cool-image-api.js.org" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg?style=for-the-badge" />
-  </a>
-  <a href="https://github.com/sujalgoel/cool-image-api-wrapper/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge" />
+    <img alt="Documentation" src="https://img.shields.io/badge/Documentation-yes-brightgreen.svg?style=flat-square" />
   </a>
   <a href="https://github.com/sujalgoel/cool-image-api-wrapper/blob/master/LICENSE" target="_blank">
-    <img alt="License: GPL-3.0" src="https://img.shields.io/github/license/sujalgoel/cool-image-api-wrapper?style=for-the-badge" />
+    <img alt="License: GPL-3.0" src="https://img.shields.io/github/license/sujalgoel/cool-image-api-wrapper?style=flat-square" />
   </a>
 </p>
 
