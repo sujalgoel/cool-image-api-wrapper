@@ -6,7 +6,7 @@
   <a href="https://www.npmjs.com/package/cool-image-api-wrapper" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/cool-image-api-wrapper.svg?style=flat-square">
   </a>
-  <a href="https://cool-image-api.js.org" target="_blank">
+  <a href="https://cool-img-api.js.org" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/Documentation-yes-brightgreen.svg?style=flat-square" />
   </a>
   <a href="https://github.com/sujalgoel/cool-image-api-wrapper/blob/master/LICENSE" target="_blank">
@@ -108,7 +108,7 @@ client.login("DISCORD_BOT_TOKEN");
 <details>
 <summary style="font-weight:bold">✌ Important Links:</summary>
 
-- 📚 **[Documentation](https://cool-image-api.js.org)**
+- 📚 **[Documentation](https://cool-img-api.js.org)**
 
 - ❔ **[Support](https://discord.gg/pXeUpehMfb)**
 

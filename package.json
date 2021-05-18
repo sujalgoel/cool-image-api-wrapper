@@ -1,6 +1,6 @@
 {
     "name": "cool-image-api-wrapper",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A quick and easy wraper to interact with the cool image api!",
     "main": "index.js",
     "typings": "index.d.ts",
