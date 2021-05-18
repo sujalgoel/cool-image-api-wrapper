@@ -1,5 +1,5 @@
 <h1 align="center">Cool Image API Wrapper</h1>
-<p>
+<p align="center">
   <a href="https://discord.gg/pXeUpehMfb" target="_blank">
     <img alt="Discord" src="https://img.shields.io/badge/Support-Click%20here-7289d9?style=flat-square&logo=discord">
   </a>
