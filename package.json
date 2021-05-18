@@ -1,6 +1,6 @@
 {
     "name": "cool-image-api-wrapper",
-    "version": "1.0.1",
+    "version": "1.0.5",
     "description": "A quick and easy wraper to interact with the cool image api!",
     "main": "index.js",
     "typings": "index.d.ts",
@@ -65,10 +65,10 @@
     "author": "Sujal Goel",
     "license": "GPL-3.0",
     "devDependencies": {
-        "node-fetch": "^2.6.1"
+        "discord.js": "^12.5.3"
     },
     "dependencies": {
-        "discord.js": "^12.5.3"
+        "node-fetch": "^2.6.1"
     },
     "bugs": {
         "url": "https://github.com/sujalgoel/cool-image-api-wrapper/issues"
